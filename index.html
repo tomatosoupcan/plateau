@@ -1,0 +1,217 @@
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit">
+<style>
+body {
+  font-family: "Kanit";
+}
+</style>
+<link rel='stylesheet' href='index.css'>
+<script src='index.js'></script>
+</head>
+
+<body onload="scaleload();">
+
+
+<meta name="viewport" 
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta charset="UTF-8">
+
+<div class='main' id='main'>
+  <div class='row1'>
+    <div class='offset'></div>
+    <div class='offset'></div>
+    <div class='offset'></div>
+    <div class='hex'><div class='hexin bgwhite' id='h1' onclick='hexclick("h1");'><div id='i1'><b><font color="darkblue" size=20 id='t1'>1</font></b></div></div></div>
+  </div>
+  <div class='row'>
+    <div class='offset'></div>
+    <div class='offset'></div>
+    <div class='hex'><div class='hexin bgwhite' id='h2' onclick='hexclick("h2");'><div id='i2' style="background: darksalmon"><b><font color='beige' size=20 id='t2'>12</font></b></div></div></div>
+    <div class='offset2'></div>
+    <div class='hex'><div class='hexin bgwhite' id='h3' onclick='hexclick("h3");'><div id='i3' style="background: darksalmon"><b><font color='beige' size=20 id='t3' style='bold'>1</font></b></div></div></div>
+  </div>
+  <div class='row'>
+    <div class='offset'></div>
+    <div class='hex'><div class='hexin bgwhite' id='h4' onclick='hexclick("h4");'><div id='i4' style="background: darksalmon"><b><font color='beige' size=20 id='t4'>11</font></b></div></div></div>
+    <div class='offset2'></div>
+    <div class='hex'><div class='hexin bgwhite' id='h5' onclick='hexclick("h5");'><div id='i5'><b><font color="red" size=20 id='t5'>C♥</font></b></div></div></div>
+    <div class='offset2'></div>
+    <div class='hex'><div class='hexin bgwhite' id='h6' onclick='hexclick("h6");'><div id='i6' style="background: darksalmon"><b><font color='beige' size=20 id='t6'>2</font></b></div></div></div>
+  </div>
+  <div class='row'>
+    <div class='hex'><div class='hexin bgwhite' id='h7' onclick='hexclick("h7");'><div id='i7'><b><font color="darkblue" size=20 id='t7'>6</font></b></div></div></div>
+    <div class='offset2'></div>
+    <div class='hex'><div class='hexin bgwhite' id='h8' onclick='hexclick("h8");'><div id='i8'><b><font color="goldenrod" size=20 id='t8'>J♦</font></b></div></div></div>
+    <div class='offset2'></div>
+    <div class='hex'><div class='hexin bgwhite' id='h9' onclick='hexclick("h9");'><div id='i9'><b><font color="blue" size=20 id='t9'>J♠</font></b></div></div></div>
+    <div class='offset2'></div>
+    <div class='hex'><div class='hexin bgwhite' id='h10' onclick='hexclick("h10");'><div id='i10'><b><font color="darkblue" size=20 id='t10'>2</font></b></div></div></div>
+  </div>
+  <div class='row'>
+    <div class='offset'></div>
+    <div class='hex'><div class='hexin bgwhite' id='h11' onclick='hexclick("h11");'><div id='i11'><b><font color="red" size=20 id='t11'>Q♥</font></b></div></div></div>
+    <div class='offset2'></div>
+    <div class='hex'><div class='hexin bgwhite' id='h12' onclick='hexclick("h12");'><div id='i12' style="background: darkblue"><b><font color='beige' size=20 id='t12'>★</font></b></div></div></div>
+    <div class='offset2'></div>
+    <div class='hex'><div class='hexin bgwhite' id='h13' onclick='hexclick("h13");'><div id='i13'><b><font color="green" size=20 id='t13'>Q♣</font></b></div></div></div>
+  </div>
+  <div class='row'>
+    <div class='hex'><div class='hexin bgwhite' id='h14' onclick='hexclick("h14");'><div id='i14' style="background: darksalmon"><b><font color='beige' size=20 id='t14'>10</font></b></div></div></div>
+    <div class='offset2'></div>
+    <div class='hex'><div class='hexin bgwhite' id='h15' onclick='hexclick("h15");'><div id='i15'><b><font color="blue" size=20 id='t15'>K♠</font></b></div></div></div>
+    <div class='offset2'></div>
+    <div class='hex'><div class='hexin bgwhite' id='h16' onclick='hexclick("h16");'><div id='i16'><b><font color="goldenrod" size=20 id='t16'>K♦</font></b></div></div></div>
+    <div class='offset2'></div>
+    <div class='hex'><div class='hexin bgwhite' id='h17' onclick='hexclick("h17");'><div id='i17' style="background: darksalmon"><b><font color='beige' size=20 id='t17'>3</font></b></div></div></div>
+  </div>
+  <div class='row'>
+    <div class='offset'></div>
+    <div class='hex'><div class='hexin bgwhite' id='h18' onclick='hexclick("h18");'><div id='i18'><b><font color="green" size=20 id='t18'>C♣</font></b></div></div></div>
+    <div class='offset2'></div>
+    <div class='hex'><div class='hexin bgwhite' id='h19' onclick='hexclick("h19");'><div id='i19' style="background: darksalmon"><b><font color='beige' size=20 id='t19'>13</font></b></div></div></div>
+    <div class='offset2'></div>
+    <div class='hex'><div class='hexin bgwhite' id='h20' onclick='hexclick("h20");'><div id='i20'><b><font color="blue" size=20 id='t20'>C♠</font></b></div></div></div>
+  </div>
+  <div class='row'>
+    <div class='hex'><div class='hexin bgwhite' id='h21' onclick='hexclick("h21");'><div id='i21' style="background: darksalmon"><b><font color='beige' size=20 id='t21'>9</font></b></div></div></div>
+    <div class='offset2'></div>
+    <div class='hex'><div class='hexin bgwhite' id='h22' onclick='hexclick("h22");'><div id='i22'><b><font color="red" size=20 id='t22'>K♥</font></b></div></div></div>
+    <div class='offset2'></div>
+    <div class='hex'><div class='hexin bgwhite' id='h23' onclick='hexclick("h23");'><div id='i23'><b><font color="green" size=20 id='t23'>K♣</font></b></div></div></div>
+    <div class='offset2'></div>
+    <div class='hex'><div class='hexin bgwhite' id='h24' onclick='hexclick("h24");'><div id='i24' style="background: darksalmon"><b><font color='beige' size=20 id='t24'>4</font></b></div></div></div>
+  </div>
+  <div class='row'>
+    <div class='offset'></div>
+    <div class='hex'><div class='hexin bgwhite' id='h25' onclick='hexclick("h25");'><div id='i25'><b><font color="blue" size=20 id='t25'>Q♠</font></b></div></div></div>
+    <div class='offset2'></div>
+    <div class='hex'><div class='hexin bgwhite' id='h26' onclick='hexclick("h26");'><div id='i26'><b><font color="darkblue" size=20 id='t26'>21</font></b></div></div></div>
+    <div class='offset2'></div>
+    <div class='hex'><div class='hexin bgwhite' id='h27' onclick='hexclick("h27");'><div id='i27'><b><font color="goldenrod" size=20 id='t27'>Q♦</font></b></div></div></div>
+  </div>
+  <div class='row'>
+    <div class='hex'><div class='hexin bgwhite' id='h28' onclick='hexclick("h28");'><div id='i28'><b><font color="darkblue" size=20 id='t28'>5</font></b></div></div></div>
+    <div class='offset2'></div>
+    <div class='hex'><div class='hexin bgwhite' id='h29' onclick='hexclick("h29");'><div id='i29'><b><font color="green" size=20 id='t29'>J♣</font></b></div></div></div>
+    <div class='offset2'></div>
+    <div class='hex'><div class='hexin bgwhite' id='h30' onclick='hexclick("h30");'><div id='i30'><b><font color="red" size=20 id='t30'>J♥</font></b></div></div></div>
+    <div class='offset2'></div>
+    <div class='hex'><div class='hexin bgwhite' id='h31' onclick='hexclick("h31");'><div id='i31'><b><font color="darkblue" size=20 id='t31'>3</font></b></div></div></div>
+  </div>
+  <div class='row'>
+    <div class='offset'></div>
+    <div class='hex'><div class='hexin bgwhite' id='h32' onclick='hexclick("h32");'><div id='i32' style="background: darksalmon"><b><font color='beige' size=20 id='t32'>8</font></b></div></div></div>
+    <div class='offset2'></div>
+    <div class='hex'><div class='hexin bgwhite' id='h33' onclick='hexclick("h33");'><div id='i33'><b><font color="goldenrod" size=20 id='t33'>C♦</font></b></div></div></div>
+    <div class='offset2'></div>
+    <div class='hex'><div class='hexin bgwhite' id='h34' onclick='hexclick("h34");'><div id='i34' style="background: darksalmon"><b><font color='beige' size=20 id='t34'>5</font></b></div></div></div>
+  </div>
+  <div class='row'>
+    <div class='offset'></div>
+    <div class='offset'></div>
+    <div class='hex'><div class='hexin bgwhite' id='h35' onclick='hexclick("h35");'><div id='i35' style="background: darksalmon"><b><font color='beige' size=20 id='t35'>7</font></b></div></div></div>
+    <div class='offset2'></div>
+    <div class='hex'><div class='hexin bgwhite' id='h36' onclick='hexclick("h36");'><div id='i36' style="background: darksalmon"><b><font color='beige' size=20 id='t36'>6</font></b></div></div></div>
+  </div>
+  <div class='row'>
+    <div class='offset'></div>
+    <div class='offset'></div>
+    <div class='offset'></div>
+    <div class='hex'><div class='hexin bgwhite' id='h37' onclick='hexclick("h37");'><div id='i37'><b><font color="darkblue" size=20 id='t37'>4</font></b></div></div></div>
+  </div>
+  <div class=buttons>
+  <button onclick='clearBoard();'>Clear<br>Board</button>
+  </div>
+  <br>
+  <div class=selects>
+  <select name="boardtype" id="boardtype" onchange="setBoard();">
+    <option value="standard">Standard</option>
+    <option value="2 player">2 Player</option>
+    <option value="3 player">3 Player</option>
+    <option value="4 player">4 Player</option>
+    <option value="5 player">5 Player</option>
+  </select>
+  <br>
+  <select name="cardtype" id="cardtype" onchange="setBoard();">
+    <option value="standard">Standard</option>
+    <option value="tarot">Tarot</option>
+  </select>
+  </div>
+  <br><br>
+  <table cellspacing="0">
+    <tr>
+      <td>6P</td>
+      <td colspan = "2">Trio</td>
+      <td colspan = "2">Duo</td>
+      <td colspan = "2">Solo</td>
+    </tr>
+    <tr>
+      <td>4-5P</td>
+      <td colspan = "2">Duo</td>
+      <td colspan = "2">Solo</td>
+      <td colspan = "2">-</td>
+    </tr>
+    <tr>
+      <td>2-3P</td>
+      <td colspan = "2">Solo</td>
+      <td colspan = "2">-</td>
+      <td colspan = "2">-</td>
+    </tr>
+    <tr>
+      <td>Bridge</td>
+      <td><input type="radio" name='p'> 1</input></td>
+      <td><input type="radio" name='p'> 2</input></td>
+      <td bgcolor='pink'><input type="radio" name='p'> 6</input></td>
+      <td><input type="radio" name='p'> 7</input></td>
+      <td><input type="radio" name='p'> 11</input></td>
+      <td><input type="radio" name='p'> 12</input></td>
+    </tr>
+    <tr>
+      <td>Y</td>
+      <td bgcolor='lightblue'><input type="radio" name='p' checked> 3</input></td>
+      <td><input type="radio" name='p'> 4</input></td>
+      <td><input type="radio" name='p'> 8</input></td>
+      <td><input type="radio" name='p'> 9</input></td>
+      <td><input type="radio" name='p'> 13</input></td>
+      <td><input type="radio" name='p'> 14</input></td>
+    </tr>
+    <tr>
+      <td>Fork</td>
+      <td><input type="radio" name='p'> 5</input></td>
+      <td><input type="radio" name='p'> 6</input></td>
+      <td><input type="radio" name='p'> 10</input></td>
+      <td><input type="radio" name='p'> 11</input></td>
+      <td><input type="radio" name='p'> 15</input></td>
+      <td><input type="radio" name='p'> 16</input></td>
+    </tr>
+    <tr>
+      <td>5 Sides</td>
+      <td><input type="radio" name='p'> 7</input></td>
+      <td><input type="radio" name='p'> 8</input></td>
+      <td><input type="radio" name='p'> 12</input></td>
+      <td><input type="radio" name='p'> 13</input></td>
+      <td><input type="radio" name='p'> 17</input></td>
+      <td><input type="radio" name='p'> 18</input></td>
+    </tr>
+    <tr>
+      <td>6 Sides</td>
+      <td><input type="radio" name='p'> 9</input></td>
+      <td><input type="radio" name='p'> 10</input></td>
+      <td><input type="radio" name='p'> 14</input></td>
+      <td><input type="radio" name='p'> 15</input></td>
+      <td><input type="radio" name='p'> 19</input></td>
+      <td><input type="radio" name='p'> 20</input></td>
+    </tr>
+</table>
+<table class='htd' cellspacing="0">
+    <tr>
+      <td class='htd2'>br</td>
+      <td class='htd'>✔</td>
+      <td class='htd'>✘</td>
+      <td class='htd'>✔</td>
+      <td class='htd'>✘</td>
+      <td class='htd'>✔</td>
+      <td class='htd'>✘</td>
+    </tr>
+</table>
+</div>
