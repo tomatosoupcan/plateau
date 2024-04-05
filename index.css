@@ -64,6 +64,19 @@
   background: goldenrod;
 }
 
+.bgred {
+  background: red;
+}
+.bggreen {
+  background: green;
+}
+.bgblue {
+  background: cyan;
+}
+.bgpurple {
+  background: purple;
+}
+
 html,
 body {
   overscroll-behavior-y: contain;
@@ -93,9 +106,9 @@ input[type=radio] {
 
 .selects {
   float: right;
-  margin-top: -40px;
-  margin-right: 41px;
-  transform: scale(2);
+  margin-top: -57px;
+  margin-right: 29px;
+  transform: scale(1.7);
 }
 
 .buttons {

@@ -1,20 +1,154 @@
 function hexclick(id) {
+  colorcount = document.getElementById('colorcount').value;
   vari = document.getElementById(id).classList[1];
   inner = 'i'+id.substr(1);
-  if (vari == "bgwhite") {
-    document.getElementById(inner).style.display = 'none';
-    document.getElementById(id).classList.add("bggold");
-    document.getElementById(id).classList.remove("bgwhite");
+  if (colorcount == "two") {
+	  if (vari == "bgwhite") {
+		document.getElementById(inner).style.display = 'none';
+		document.getElementById(id).classList.add("bggold");
+		document.getElementById(id).classList.remove("bgwhite");
+	  }
+	  else if (vari == "bggold") {
+		document.getElementById(id).classList.add("bgblack");
+		document.getElementById(id).classList.remove("bggold");
+	  }
+	  else {
+		document.getElementById(id).classList.add("bgwhite");
+		document.getElementById(id).classList.remove("bgblack");
+		document.getElementById(id).classList.remove("bgred");
+		document.getElementById(id).classList.remove("bgblue");
+		document.getElementById(id).classList.remove("bgpurple");
+		document.getElementById(id).classList.remove("bggreen");
+		document.getElementById(id).classList.remove("bggold");
+		document.getElementById(inner).style.display = 'block';
+	  }
   }
-  else if (vari == "bggold") {
-    document.getElementById(id).classList.add("bgblack");
-    document.getElementById(id).classList.remove("bggold");
+  else if (colorcount == "three") {
+	  if (vari == "bgwhite") {
+		document.getElementById(inner).style.display = 'none';
+		document.getElementById(id).classList.add("bggold");
+		document.getElementById(id).classList.remove("bgwhite");
+	  }
+	  else if (vari == "bggold") {
+		document.getElementById(id).classList.add("bgblack");
+		document.getElementById(id).classList.remove("bggold");
+	  }
+	  else if (vari == "bgblack") {
+		document.getElementById(id).classList.add("bgred");
+		document.getElementById(id).classList.remove("bgblack");
+	  }
+	  else {
+		document.getElementById(id).classList.add("bgwhite");
+		document.getElementById(id).classList.remove("bgblack");
+		document.getElementById(id).classList.remove("bgred");
+		document.getElementById(id).classList.remove("bgblue");
+		document.getElementById(id).classList.remove("bgpurple");
+		document.getElementById(id).classList.remove("bggreen");
+		document.getElementById(id).classList.remove("bggold");
+		document.getElementById(inner).style.display = 'block';
+	  }
   }
-  else if (vari == "bgblack") {
-    document.getElementById(id).classList.add("bgwhite");
-    document.getElementById(id).classList.remove("bgblack");
-    document.getElementById(inner).style.display = 'block';
+  else if (colorcount == "four") {
+	  if (vari == "bgwhite") {
+		document.getElementById(inner).style.display = 'none';
+		document.getElementById(id).classList.add("bggold");
+		document.getElementById(id).classList.remove("bgwhite");
+	  }
+	  else if (vari == "bggold") {
+		document.getElementById(id).classList.add("bgblack");
+		document.getElementById(id).classList.remove("bggold");
+	  }
+	  else if (vari == "bgblack") {
+		document.getElementById(id).classList.add("bgred");
+		document.getElementById(id).classList.remove("bgblack");
+	  }
+	  else if (vari == "bgred") {
+		document.getElementById(id).classList.add("bggreen");
+		document.getElementById(id).classList.remove("bgred");
+	  }
+	  else {
+		document.getElementById(id).classList.add("bgwhite");
+		document.getElementById(id).classList.remove("bgblack");
+		document.getElementById(id).classList.remove("bgred");
+		document.getElementById(id).classList.remove("bgblue");
+		document.getElementById(id).classList.remove("bgpurple");
+		document.getElementById(id).classList.remove("bggreen");
+		document.getElementById(id).classList.remove("bggold");
+		document.getElementById(inner).style.display = 'block';
+	  }
   }
+  else if (colorcount == "five") {
+	  if (vari == "bgwhite") {
+		document.getElementById(inner).style.display = 'none';
+		document.getElementById(id).classList.add("bggold");
+		document.getElementById(id).classList.remove("bgwhite");
+	  }
+	  else if (vari == "bggold") {
+		document.getElementById(id).classList.add("bgblack");
+		document.getElementById(id).classList.remove("bggold");
+	  }
+	  else if (vari == "bgblack") {
+		document.getElementById(id).classList.add("bgred");
+		document.getElementById(id).classList.remove("bgblack");
+	  }
+	  else if (vari == "bgred") {
+		document.getElementById(id).classList.add("bggreen");
+		document.getElementById(id).classList.remove("bgred");
+	  }
+	  else if (vari == "bggreen") {
+		document.getElementById(id).classList.add("bgblue");
+		document.getElementById(id).classList.remove("bggreen");
+	  }
+	  else {
+		document.getElementById(id).classList.add("bgwhite");
+		document.getElementById(id).classList.remove("bgblack");
+		document.getElementById(id).classList.remove("bgred");
+		document.getElementById(id).classList.remove("bgblue");
+		document.getElementById(id).classList.remove("bgpurple");
+		document.getElementById(id).classList.remove("bggreen");
+		document.getElementById(id).classList.remove("bggold");
+		document.getElementById(inner).style.display = 'block';
+	  }
+  }
+  else if (colorcount == "six") {
+	  if (vari == "bgwhite") {
+		document.getElementById(inner).style.display = 'none';
+		document.getElementById(id).classList.add("bggold");
+		document.getElementById(id).classList.remove("bgwhite");
+	  }
+	  else if (vari == "bggold") {
+		document.getElementById(id).classList.add("bgblack");
+		document.getElementById(id).classList.remove("bggold");
+	  }
+	  else if (vari == "bgblack") {
+		document.getElementById(id).classList.add("bgred");
+		document.getElementById(id).classList.remove("bgblack");
+	  }
+	  else if (vari == "bgred") {
+		document.getElementById(id).classList.add("bggreen");
+		document.getElementById(id).classList.remove("bgred");
+	  }
+	  else if (vari == "bggreen") {
+		document.getElementById(id).classList.add("bgblue");
+		document.getElementById(id).classList.remove("bggreen");
+	  }
+	  else if (vari == "bgblue") {
+		document.getElementById(id).classList.add("bgpurple");
+		document.getElementById(id).classList.remove("bgblue");
+	  }
+	  else {
+		document.getElementById(id).classList.add("bgwhite");
+		document.getElementById(id).classList.remove("bgblack");
+		document.getElementById(id).classList.remove("bgred");
+		document.getElementById(id).classList.remove("bgblue");
+		document.getElementById(id).classList.remove("bgpurple");
+		document.getElementById(id).classList.remove("bggreen");
+		document.getElementById(id).classList.remove("bggold");
+		document.getElementById(inner).style.display = 'block';
+	  }
+  }
+  
+  
 }
 
 function clearBoard() {
