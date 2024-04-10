@@ -157,12 +157,12 @@ function clearBoard() {
     id2 = 'i' + i;
     document.getElementById(id2).style.display = 'block';        
     document.getElementById(id1).classList.add("bgwhite");
-	document.getElementById(id).classList.remove("bgblack");
-	document.getElementById(id).classList.remove("bgred");
-	document.getElementById(id).classList.remove("bgblue");
-	document.getElementById(id).classList.remove("bgpurple");
-	document.getElementById(id).classList.remove("bggreen");
-	document.getElementById(id).classList.remove("bggold");
+	document.getElementById(id1).classList.remove("bgblack");
+	document.getElementById(id1).classList.remove("bgred");
+	document.getElementById(id1).classList.remove("bgblue");
+	document.getElementById(id1).classList.remove("bgpurple");
+	document.getElementById(id1).classList.remove("bggreen");
+	document.getElementById(id1).classList.remove("bggold");
   }
 }
 
